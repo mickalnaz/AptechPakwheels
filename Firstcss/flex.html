@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+     <style>
+        header .container{
+            height:100px;
+            /* border:1px solid green; */
+            border-bottom:1px solid gainsboro;
+        }
+        header .container .row{
+            /* border:1px solid red; */
+            height:90%;
+            margin:0 auto;
+            display:flex;
+        }
+        .col1{
+            wigth:70%;
+            height:inherit;
+            background-color: pink;
+        }
+        .col2{
+            width:70%;
+            height:inherit;
+            background-color: blueviolet;
+        }
+        .col3{
+            width:15%;
+            height:inherit;
+            background-color: yellowgreen;
+        }
+        .col2 .nav ul{
+            background-color: aquamarine;
+            padding:10px;
+            position:relative;
+            top:100px;
+        }
+        .col2 .nav .ul li{
+            display:inline;
+            color:white;
+            background-color: black;
+            padding:10px;
+            margin-left:25px;
+        }
+        .col3 .btn{`
+            background-color: ;
+            height:50px;
+            width:150px;
+            position:relative;
+            top:10px;
+            border-radius:5px;
+            color:white;
+            font-weight:bold;
+
+        }
+        .col3 .btn p{
+            position:relative;
+            top:15px;
+            text-align:center;
+        }
+     </style>
+</head>
+<body>
+<header>
+    <div class="container">
+     <div class="row">
+        <div class="col col1">
+            <div class="logo">
+            </div>
+        </div>
+        <div class="col col2">
+        <div class="nav">
+            <ul>
+                <li>Used Cars</li>
+                <li>New Cars</li>
+                <li>Bikes</li>
+                <li>Auto Stories</li>
+                <li>Videos</li>
+                <li>Forum</li>
+                <li>Blog</li>
+            </ul>
+        </div>    
+        </div>  
+
+        <div class="col col3">
+            <div class="btn">
+                <p>Post And Add</p>
+             </div>
+        </div>
+
+     </div>
+    </div>
+</header>
+</body>
+</html>
